@@ -1,42 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+
+
 body {
-    margin-left: 0;
-}
+    margin:-left 10px;
+    margin-right: 10px;
+    background-color: rgb(208, 187, 187);
+  }
 
+.topnav {
+    overflow: hidden;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
+  .topnav h1 {
+    color: rgb(193, 234, 28);
+    font-size: 50px;
+    text-shadow: 2px 2px 4px #0d0b0b;
+  }
+
+  .topnav a {
+    float: left;
+    display: block;
+    color: blue
+    text-shadow: 2px 2px 4px rgb(51, 36, 36);
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: rgb(7, 7, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+  } 
+
+.topnav a:hover {
+    background-color: #10a9cf;
+    color: black;
+  }
 
 .background{
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5rem;
+    margin-left: 10%;
+    margin-right: 10%;
     padding-bottom: 5rem;
-    width: 90%;
-    max-width: 56rem;
+    width: 100%;
+    max-width: 80%;
     height: 100%;
+    background-color: blanchedalmond;
 }
 
-h1{
+
+.headline{
     width:100%;
-    font-size: 36px;
     font-family: 'Moderat','Avenir','Helvetica','Arial',sans-serif;
-    background-color: aquamarine;
+    font-size: 38px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: tan;
+    
 }
 
-h2{
+.sub-heading{
     width:100%;
     font-family: 'Moderat','Avenir','Helvetica','Arial',sans-serif;
-    font-size: 24px;
+    font-size: 29px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
 }
 
 .citation{
     padding-top: 0;
+    padding-left: 2rem;
     font-family: 'Moderat','Avenir','Helvetica','Arial',sans-serif;
     font-size: 18px;
     font-weight: normal;
 }
 
 .image{
-    height:28rem; 
-    width: 56rem;
+    height:30rem; 
+    width: 100%;
 }
 
 .image img{
@@ -46,15 +89,15 @@ h2{
     object-fit: contain;  
 }
 
-.image {
-    border: 5px solid gray;
-    padding: 5px;
-    border-image: url(Students_and_AI.png) 20% round;
-  }
+
 
 .paragraphs{
-    max-width: 56rem;
-    padding-bottom: 1.5rem;
+    max-width: 80rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    text-align: justify;
+    font-style: bold;
 }
 
 .paragraphs p{
@@ -64,8 +107,10 @@ h2{
 }
 
 footer {
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
     font-family: 'Moderat','Avenir','Helvetica','Arial',sans-serif;
-    font-size: 18px;
-    font-weight: normal;
+    font-size: 20px;
+    font-weight: bold;
 }
