@@ -1,116 +1,122 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 
-body {
-    margin:-left 10px;
-    margin-right: 10px;
-    background-color: rgb(208, 187, 187);
-  }
+.body {
+  margin: -left 10px;
+  margin-right: 10px;
+  background-color: rgb(208, 187, 187);
+}
 
 .topnav {
-    overflow: hidden;
-    background-color: blueviolet;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  overflow: hidden;
+  background-color: blueviolet;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  .topnav h1 {
-    color: rgb(193, 234, 28);
-    font-size: 50px;
-    text-shadow: 2px 2px 4px #0d0b0b;
-  }
+.topnav h1 {
+  color: rgb(193, 234, 28);
+  font-size: 50px;
+  text-shadow: 2px 2px 4px #0d0b0b;
+}
 
-  .topnav a {
-    float: left;
-    display: block;
-    color: blue
-    text-shadow: 2px 2px 4px rgb(51, 36, 36);
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: rgb(7, 7, 7);
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: yellow;
-  } 
+.topnav a {
+  float: left;
+  display: block;
+  color: blue text-shadow: 2px 2px 4px rgb(51, 36, 36);
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: rgb(7, 7, 7);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: yellow;
+}
 
 .topnav a:hover {
-    background-color: #10a9cf;
-    color: black;
-  }
+  background-color: #10a9cf;
+  color: black;
+}
 
-.background{
-    margin-left: 10%;
-    margin-right: 10%;
-    padding-bottom: 5rem;
-    width: 100%;
-    max-width: 80%;
-    height: 100%;
-    background-color: blanchedalmond;
+.main {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-bottom: 5rem;
+  width: 100%;
+  max-width: 80%;
+  height: 100%;
+  background-color: blanchedalmond;
 }
 
 
-.headline{
-    width:100%;
-    font-family: 'Moderat','Avenir','Helvetica','Arial',sans-serif;
-    font-size: 38px;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    background-color: tan;
-    
-}
-
-.sub-heading{
-    width:100%;
-    font-family: 'Moderat','Avenir','Helvetica','Arial',sans-serif;
-    font-size: 29px;
-    padding-left: 2rem;
-    padding-right: 2rem;
+.headline {
+  width: 100%;
+  font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  font-size: 38px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  background-color: tan;
 
 }
 
-.citation{
-    padding-top: 0;
-    padding-left: 2rem;
-    font-family: 'Moderat','Avenir','Helvetica','Arial',sans-serif;
-    font-size: 18px;
-    font-weight: normal;
+.sub-heading {
+  width: 100%;
+  font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  font-size: 29px;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
 }
 
-.image{
-    height:30rem; 
-    width: 100%;
+.citation {
+  padding-top: 0;
+  padding-left: 2rem;
+  font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: normal;
 }
 
-.image img{
-    resize: both;
-    height: 100%;
-    width: 100%;
-    object-fit: contain;  
+.image {
+  height: 30rem;
+  width: 100%;
+}
+
+.image img {
+  resize: both;
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }
 
 
 
-.paragraphs{
-    max-width: 80rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    text-align: justify;
-    font-style: bold;
+.paragraphs {
+  max-width: 80rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: justify;
+  font-style: bold;
 }
 
-.paragraphs p{
-    font-family: 'Moderat','Avenir','Helvetica','Arial',sans-serif;
-    font-weight: normal;
-    font-size: 18px;
+.paragraphs p {
+  font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
 }
 
 footer {
-    padding-bottom: 2rem;
-    padding-left: 4rem;
-    padding-right: 2rem;
-    font-family: 'Moderat','Avenir','Helvetica','Arial',sans-serif;
-    font-size: 20px;
-    font-weight: bold;
+  padding-bottom: 2rem;
+  padding-left: 4rem;
+  padding-right: 2rem;
+  font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.page2-body {
+  padding-left: 20rem;
+  padding-right: 20rem;
+  font-family: Avenir;
+  font-size: 18px;
 }
