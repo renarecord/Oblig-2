@@ -25,10 +25,9 @@
 .topnav a {
   float: left;
   display: block;
-  color: blue text-shadow: 2px 2px 4px rgb(51, 36, 36);
+  color: rgb(2, 2, 4) text-shadow: 2px 2px 4px rgb(51, 36, 36);
   text-align: left;
   padding: 14px 16px;
-  text-decoration: rgb(7, 7, 7);
   font-family: Arial, Helvetica, sans-serif;
   background-color: yellow;
 }
@@ -112,6 +111,12 @@ footer {
   font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: bold;
+}
+
+.next-page{
+  font-size: 30px;
+  background-color: white;
+  text-align: center;
 }
 
 .page2-body {
