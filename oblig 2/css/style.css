@@ -125,3 +125,6 @@ footer {
   font-family: Avenir;
   font-size: 18px;
 }
+.groupmembers {
+list-style-type: none;
+}
