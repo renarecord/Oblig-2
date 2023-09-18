@@ -4,7 +4,7 @@
 
 
 .body {
-  margin: -left 10px;
+  margin-left: 10px;
   margin-right: 10px;
   background-color: rgb(208, 187, 187);
 }
@@ -14,9 +14,12 @@
   background-color: blueviolet;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .topnav h1 {
+  padding-left: 10px;
   color: rgb(193, 234, 28);
   font-size: 50px;
   text-shadow: 2px 2px 4px #0d0b0b;
@@ -25,11 +28,14 @@
 .topnav a {
   float: left;
   display: block;
-  color: rgb(2, 2, 4) text-shadow: 2px 2px 4px rgb(51, 36, 36);
+  color: rgb(2, 2, 4); 
+  text-shadow: 2px 2px 4px rgba(51, 36, 36, 0.6);
   text-align: left;
-  padding: 14px 16px;
+  padding: 14px 14px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: yellow;
+  text-decoration: none;
 }
 
 .topnav a:hover {
@@ -40,7 +46,7 @@
 .main {
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
   width: 100%;
   max-width: 80%;
   height: 100%;
@@ -55,7 +61,6 @@
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: tan;
-
 }
 
 .sub-heading {
@@ -64,15 +69,18 @@
   font-size: 29px;
   padding-left: 2rem;
   padding-right: 2rem;
-
 }
 
 .citation {
   padding-top: 0;
   padding-left: 2rem;
+}
+
+.citation a{
   font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
+  color: inherit;
 }
 
 .image {
@@ -87,11 +95,8 @@
   object-fit: contain;
 }
 
-
-
 .paragraphs {
   max-width: 80rem;
-  padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
   text-align: justify;
@@ -105,18 +110,32 @@
 }
 
 footer {
-  padding-bottom: 2rem;
-  padding-left: 4rem;
-  padding-right: 2rem;
   font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
   font-size: 20px;
   font-weight: bold;
+  margin-left: 10%;
+  margin-right: 10%; 
+}
+
+footer a{
+  text-decoration: none;
+  color: inherit;
 }
 
 .next-page{
-  font-size: 30px;
   background-color: white;
   text-align: center;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  
+}
+
+.next-page a{
+  text-decoration: none;
+  font-size: 24px;
+  font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
+  font-weight: bold;
+  color: inherit;
 }
 
 .page2-body {
