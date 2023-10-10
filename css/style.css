@@ -44,7 +44,7 @@
 .main {
   margin-left: 5%;
   margin-right: 5%;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
   width: 100%;
   max-width: 90%;
   height: 100%;
@@ -73,7 +73,7 @@
   
   padding-left: 2rem;
   font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: normal;
 }
 
@@ -109,8 +109,8 @@
 }
 
 footer {
-  padding-bottom: 2rem;
-  padding-left: 4rem;
+  padding-bottom: 1rem;
+  padding-left: 5%;
   padding-right: 2rem;
   font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
   font-size: 20px;
@@ -118,9 +118,11 @@ footer {
 }
 
 .next-page{
-  font-size: 30px;
+  font-size: 20px;
   background-color: white;
   text-align: center;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
 }
 
 .page2-body {
