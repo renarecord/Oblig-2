@@ -10,26 +10,30 @@
 }
 
 .topnav {
+  margin: auto;
   overflow: hidden;
   background-color: blueviolet;
-  font-size: 20px;
+  font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .topnav h1 {
   color: rgb(193, 234, 28);
-  font-size: 30%;
+  font-size: 55px;
   text-shadow: 2px 2px 4px #0d0b0b;
+  padding-left: 2rem;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: rgb(2, 2, 4) text-shadow: 2px 2px 4px rgb(51, 36, 36);
+  color: rgb(43, 13, 217);
   text-align: left;
-  padding: 14px 16px;
+  padding: 10px 5px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: yellow;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .topnav a:hover {
@@ -38,11 +42,11 @@
 }
 
 .main {
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
   padding-bottom: 5rem;
   width: 100%;
-  max-width: 80%;
+  max-width: 90%;
   height: 100%;
   background-color: blanchedalmond;
 }
@@ -51,24 +55,22 @@
 .headline {
   width: 100%;
   font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
-  font-size: 220%
+  font-size: 36px;
   padding-left: 2rem;
   padding-right: 2rem;
   background-color: tan;
-
 }
 
 .sub-heading {
   width: 100%;
   font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
-  font-size: 180%;
+  font-size: 26px;
   padding-left: 2rem;
   padding-right: 2rem;
-
 }
 
 .citation {
-  padding-top: 0;
+  
   padding-left: 2rem;
   font-family: 'Moderat', 'Avenir', 'Helvetica', 'Arial', sans-serif;
   font-size: 18px;
@@ -76,25 +78,28 @@
 }
 
 .image {
-  height: 30rem;
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .image img {
   resize: both;
   height: 100%;
   width: 100%;
-  object-fit: contain;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 2%;
+ 
 }
 
 
 
 .paragraphs {
   max-width: 80rem;
-  padding-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-style: bold;
+  
 }
 
 .paragraphs p {
@@ -124,6 +129,7 @@ footer {
   font-family: Avenir;
   font-size: 18px;
 }
+
 .groupmembers {
 list-style-type: none;
 }
