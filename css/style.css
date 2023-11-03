@@ -127,19 +127,62 @@ footer {
   text-align: center;
 }
 
+/* NAVIGATION BAR PAGE 2*/
+
+.page2-body{
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Moderat, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.header{
+  font-size: 16px;
+  font-weight: 900;
+  background-color: #ff8100;
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-student{
+  display: flex;
+  align-items: center;
+  margin-left: 8vw;
+}
+
+.logo-student > img {
+  width: 100px;
+  object-fit: contain;
+  margin-right: 6vw;
+}
+.lang-login-search-menu{
+  margin-right: 6vw;
+  align-items: center;
+  display: flex;
+}
+
+.lang-login-search-menu > .nav-bar-button {
+  color: #222;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  cursor: pointer;   
+}
+
 /*  PAGE 2  */
 
-.page2-body {
-  padding-left: 20vw;
-  padding-right: 20vw;
-  font-family: Moderat, Avenir, Helvetica, Arial, sans-serif;
+main {
+  padding-left: 20%;
+  padding-right: 20%;
   font-size: 18px;
 }
 
 @media screen and (max-width: 900px) {
-  .page2-body{
-    padding-left: 10vw;
-    padding-right: 10vw;
+  main{
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
@@ -148,18 +191,36 @@ footer {
   font-weight: 900;
 }
 
-.page2-body h2 {
+.main h2 {
   font-size: 18px;
   font-weight: 900;
 }
 
-.page2-body h3 {
+.main h3 {
   font-weight: normal;
   font-size: 18px;
 }
-
-.groupmembers {
-list-style-type: none;
+.next-page2{
+  font-size: 20px;
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+  text-align: center;
 }
 
+footer {
+  font-size: 16px;
+  font-weight: 900;
+  background-color: #ff8100;
+  height: 100%;
+  width: 100vw;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+}
 
+.groupmembers {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+}
