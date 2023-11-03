@@ -145,19 +145,25 @@ footer {
   width: 100vw;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .logo-student{
+  background-image: url("../media/oslomet_logo.png");
   display: flex;
   align-items: center;
   margin-left: 8vw;
+  background-size: cover;
+  height: 50px;
+  width: 90px;
+  
+}
+.nav-bar{
+  padding-top: 4vw;
+  font-size: 18px;
 }
 
-.logo-student > img {
-  width: 100px;
-  object-fit: contain;
-  margin-right: 6vw;
-}
+
 .lang-login-search-menu{
   margin-right: 6vw;
   align-items: center;
@@ -169,6 +175,7 @@ footer {
   padding-left: 2vw;
   padding-right: 2vw;
   cursor: pointer;   
+  
 }
 
 /*  PAGE 2  */
